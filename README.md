@@ -29,3 +29,11 @@
 ![image](https://github.com/user-attachments/assets/e48b7b1d-0098-4808-8265-342f9ca18389)
 
 Задание 2
+Прописываем команду 
+sudo yum install curl 
+Чтобы убедиться, что библиотека Curl скачана на виртуальную машину
+![image](https://github.com/user-attachments/assets/703c91e3-9b56-4849-954e-963bfcf29862)
+
+Далее в задании указываем команду 
+`sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo` 
+Эта команда добавляет репозиторий Docker по адресу `/etc/yum.repos.d/` в виртуальную машину.
