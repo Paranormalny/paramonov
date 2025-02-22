@@ -1,6 +1,7 @@
+Парамонов К-ИСП 39-1 
 Лабораторная работа
 Задание 1
-Парамонов К-ИСП 39-1 
+
 
 Установили Oracle linux
 ![image](https://github.com/user-attachments/assets/244a15d8-2a4d-49ba-978a-0b4dac0069dc)
@@ -26,3 +27,5 @@
 А затем, чтобы проверить успешность загрузки, используем команду:
 `wget --version`.
 ![image](https://github.com/user-attachments/assets/e48b7b1d-0098-4808-8265-342f9ca18389)
+
+Задание 2
