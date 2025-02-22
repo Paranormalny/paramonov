@@ -49,4 +49,10 @@ docker sudo yum install docker-ce docker-ce-cli containerd.io
 sudo systemctl enable docker --now
 ![image](https://github.com/user-attachments/assets/a36318fd-745d-4d45-bafd-6699879be9c8)
 
+Задание 3
+Команда: 
+COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)
+Получает последнюю версию Docker Compose, для этого использует API GitHub для получения информации о последнем релизе и вытаскивает номер версии из JSON ответа.
+![image](https://github.com/user-attachments/assets/58fc6696-980c-4d61-afaa-1f3b7d4527d3)
+
 
