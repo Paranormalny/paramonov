@@ -19,3 +19,9 @@
 `wq!`.
 ![image](https://github.com/user-attachments/assets/18725e7a-5821-4e3b-9493-edbf1fe1f580)
 
+![image](https://github.com/user-attachments/assets/11723064-3289-4039-925e-0ef8f7a5799b)
+
+После всех этих операций снова вводим команду:
+`sudo yum install wget`
+А затем, чтобы проверить успешность загрузки, используем команду:
+`wget --version`.
