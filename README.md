@@ -39,4 +39,8 @@ sudo yum install curl
 Эта команда добавляет репозиторий Docker по адресу `/etc/yum.repos.d/` в виртуальную машину.
 ![image](https://github.com/user-attachments/assets/ec5f894f-8a4e-4a68-be0d-629d0fc31d46)
 
+Следующим шагом нужно будет установить саму команду: 
+docker sudo yum install docker-ce docker-ce-cli containerd.io
+![image](https://github.com/user-attachments/assets/14b16a9d-3fde-4749-a819-e4b1cb361dc5)
+
 
