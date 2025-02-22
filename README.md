@@ -25,3 +25,4 @@
 `sudo yum install wget`
 А затем, чтобы проверить успешность загрузки, используем команду:
 `wget --version`.
+![image](https://github.com/user-attachments/assets/e48b7b1d-0098-4808-8265-342f9ca18389)
