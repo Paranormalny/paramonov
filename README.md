@@ -55,4 +55,19 @@ COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | g
 Получает последнюю версию Docker Compose, для этого использует API GitHub для получения информации о последнем релизе и вытаскивает номер версии из JSON ответа.
 ![image](https://github.com/user-attachments/assets/58fc6696-980c-4d61-afaa-1f3b7d4527d3)
 
+Группа команд:
+`sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose` 
+Загружает утилиту Docker Compose, определяет операционную систему (`uname -s`) и архитектуру процессора (`uname -m`),  а затем сохраняет её в `/usr/bin/docker-compose`.
+![image](https://github.com/user-attachments/assets/5c23f822-cbf6-47ac-bc04-5d9ee9518802)
+![image](https://github.com/user-attachments/assets/2c7f7a18-5d02-45ce-ae88-67080d3c1190)
+sudo chmod +x /usr/bin/docker-compose
+• Предоставление прав на выполнение файла docker-compose.
+![image](https://github.com/user-attachments/assets/de734d41-ff5c-42a9-ab5c-abdd18a26c45)
+
+Скачиваем git команду: 
+sudo yum install git
+![image](https://github.com/user-attachments/assets/57b6a692-7480-4990-9773-94e1011edfff)
+
+
+
 
