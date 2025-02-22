@@ -42,5 +42,11 @@ sudo yum install curl
 Следующим шагом нужно будет установить саму команду: 
 docker sudo yum install docker-ce docker-ce-cli containerd.io
 ![image](https://github.com/user-attachments/assets/14b16a9d-3fde-4749-a819-e4b1cb361dc5)
+![image](https://github.com/user-attachments/assets/59162f62-b1dc-4d9d-a65b-809431fcf4a1)
+
+
+Следующая команда дает разрешение на автозапуск докера: 
+sudo systemctl enable docker --now
+![image](https://github.com/user-attachments/assets/a36318fd-745d-4d45-bafd-6699879be9c8)
 
 
