@@ -68,6 +68,46 @@ sudo chmod +x /usr/bin/docker-compose
 sudo yum install git
 ![image](https://github.com/user-attachments/assets/57b6a692-7480-4990-9773-94e1011edfff)
 
+git clone https://github.com/skl256/grafana_stack_for_docker.git
+![image](https://github.com/user-attachments/assets/1cbe4e87-0793-4d44-97c4-d549a0cde7a1)
+
+cd grafana_stack_for_docker
+![image](https://github.com/user-attachments/assets/11ac5f4d-606a-41f9-bc6e-2e81365d4f55)
+sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+![image](https://github.com/user-attachments/assets/c8f638a5-cba5-48b5-970e-181d17cc76df)
+sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data}
+![image](https://github.com/user-attachments/assets/121e066d-ffb4-41aa-90ed-ee24cd191947)
+sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
+![image](https://github.com/user-attachments/assets/12d8bef7-7870-4d76-978b-fd8b898aafab)
+ls /mnt/common_volume/grafana/grafana-config/grafana.ini
+![image](https://github.com/user-attachments/assets/e9cf5d18-72a1-48db-ac26-07049d948533)
+cp config/* /mnt/common_volume/swarm/grafana/config/
+![image](https://github.com/user-attachments/assets/e255b4da-90c1-4775-ae23-65997c0cdd75)
+mv`: Это стандартная утилита Unix для **перемещения** или **изменения имени** файлов и директорий.  Если указан один путь (например, `mv file.txt newfile.txt`), она **переименует** файл. Если указаны два разных пути (например, `mv file.txt /another/directory/`), она **переместит** файл.
+
+`grafana.yaml`: Это исходный файл, который вы хотите **переименовать**. В данном случае это файл конфигурации Grafana, написанный в формате YAML.
+
+`docker-compose.yaml`: Это **новое имя** файла, которое будет использоваться вместо старого. В данном случае это стандартное имя для файла конфигурации Docker Compose.
+![image](https://github.com/user-attachments/assets/fc09988a-ebd3-4f2b-bef6-8fa242087855)
+sudo docker compose up -d
+sudo: Это команда выполнения действия с правами администратора (root), если текущий пользователь не добавлен в группу docker.
+
+docker compose: Это подкоманда Docker Compose, предназначенная для управления мультиконтейнерными приложениями через файл docker-compose.yml.
+
+up: Эта команда создает и запускает контейнеры, описанные в файле docker-compose.yml. Если контейнеры уже существуют, они просто обновляются.
+
+-d (отключенный режим): Этот флаг указывает, что Docker Compose запускает контейнеры в фоновом режиме без отображения логов в терминале. Это удобно для длительных задач или сценариев в производственной среде.
+![image](https://github.com/user-attachments/assets/99a2a2ba-b69a-4399-8e88-c82bf0bf1ebb)
+
+
+
+
+
+
+
+
+
+
 
 
 
