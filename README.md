@@ -114,6 +114,15 @@ sudo docker compose down
 • Удаляет сети, созданные автоматически для данного проекта.
 • По умолчанию не удаляются тома и образы, если они явно не указаны в параметрах.
 ![image](https://github.com/user-attachments/assets/e9968211-16ec-4a36-99ec-e595d0d5e8ba)
+sudo docker compose ps
+Эта выводит список контейнеров, которые относятся к текущему проекту, вместе с их состоянием команды и дополнительной информацией.
+![image](https://github.com/user-attachments/assets/bb2b1319-a5d3-4e9b-b854-2532b1c50ed8)
+git clone https://github.com/RabanFix/LarinLaba.git
+![image](https://github.com/user-attachments/assets/2da2b148-effa-4933-82cc-67c254a0617b)
+pwd
+![image](https://github.com/user-attachments/assets/7f12059e-a639-44f0-b9ed-bfe9631ecf58)
+
+
 
 
 
