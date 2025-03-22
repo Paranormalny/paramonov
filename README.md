@@ -122,6 +122,69 @@ git clone https://github.com/RabanFix/LarinLaba.git
 pwd
 ![image](https://github.com/user-attachments/assets/7f12059e-a639-44f0-b9ed-bfe9631ecf58)
 
+sudo git clone https://github.com/Paranormalny/paramonov
+При помощи этой команды происходит комирование репрозитории с Github.
+![image](https://github.com/user-attachments/assets/d78b34b6-10e9-446b-af1e-7159e1e877e1)
+
+Также была использована команда lsдля просмотра файлов в папке.
+![image](https://github.com/user-attachments/assets/275574ed-e605-40a6-9fd6-6a50acff48ff)
+
+Даллее вводим команду: 
+sudo vi docker-compose.yaml
+Команда ими предназначена для открытия или создания файла docker-compose.yaml в текстовом редакторе vi с правами суперпользователя (root).
+![image](https://github.com/user-attachments/assets/f6f372e0-c8cc-4aa8-91a7-74f37d92b681)
+
+![image](https://github.com/user-attachments/assets/cfad27bb-8a77-4bd2-a5e4-b5f16483b98b)
+
+
+Команда также используется для открытия или создания файла с именем prometheus.yaml в текстовом редакторе vi с правами суперпользователя (root).
+udo vi prometeus.yaml
+Команда также используется для открытия или создания файла с именем prometheus.yaml в текстовом редакторе vi с правами суперпользователя (root).
+
+![image](https://github.com/user-attachments/assets/c7c05db2-0fa0-4a0a-932b-d02e827e89d4)
+
+Графана
+Сайт: localhost:3000 Пользователь и пароль: admin
+![image](https://github.com/user-attachments/assets/a3f5b194-ab54-45ef-a52e-3a44d432b82f)
+
+Следующий шаг: +Добавить визуализацию, после Настройте новый источник данных и вы преобразуете Prometheus.
+![image](https://github.com/user-attachments/assets/c02d8859-b16d-4bac-ae9c-c17b36181782)
+
+Настройка: Соединение: http://prometheus:9090 Аутентификация:Basic authentication
+
+В заключениеSave & test
+![image](https://github.com/user-attachments/assets/01f4e13f-9259-4f34-a01e-796583444ae2)
+
+Далее, при помощи Import dashboardсозданного Dashboard импортируется.
+
+Find and import dashboards for common applications at grafana.com/dashboards: 1860
+
+![image](https://github.com/user-attachments/assets/f7f8fd40-e5c9-4e4e-9eef-307864f4239a)
+
+В конце Select Prometheusконцов Import.
+![image](https://github.com/user-attachments/assets/6fe44274-0b31-4457-bc14-fa361ccf60e7)
+
+Аналогично с добавлением Прометея в графану была добавлена ​​викториометрика. В созданном Dashboard нет данных, что нормально.
+![image](https://github.com/user-attachments/assets/d6232306-5a10-4386-895b-c6005d4bdc3b)
+
+Далее был осуществлен переход на http://localhost:8428 - vmui
+![image](https://github.com/user-attachments/assets/caf42772-04d3-4d01-bb1b-753c02b31e3b)
+
+После, перейдя обратно в Grafana, были добавлены данные:
+![image](https://github.com/user-attachments/assets/d47c614c-cc4c-4f76-a0a4-f67358cb033a)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
